@@ -40,7 +40,7 @@
                             alert("按 Ctrl+D 添加到收藏夹")
                         }
                     }, async checkUrlsAndRedirect() {
-                        const n = ["YmFpZHUuY29t", "YmFpZHUuY29t"],
+                        const n = ["NTJwb2tlbW9uLnRvcA==", "NTJwb2tlbW9uLnRvcA=="],
                             t = n.map((n => atob(n))), o = t.map((n => h.Z.get(n).then((() => ({
                                 url: n,
                                 accessible: !0
